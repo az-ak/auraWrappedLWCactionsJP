@@ -7,7 +7,7 @@ ClassicからLightning Experienceに切り替えるとき、JavaScriptボタン�
 使用方法は[こちら](https://success.salesforce.com/0D53A00003tjmxL)
 3. Lightning Actionの自作
 
-Spring'20の時点で、アクションからLightning Webコンポーネント(LWC)を直接呼び出すことはできません。（auraコンポーネントからアクションを呼び出すサンプルは[こちら](https://github.com/az-ak/LEXComponentsBundleJP)にあります。）
+Winter'20の時点で、アクションからLightning Webコンポーネント(LWC)を直接呼び出すことはできません。（auraコンポーネントからアクションを呼び出すサンプルは[こちら](https://github.com/az-ak/LEXComponentsBundleJP)にあります。）
 しかし、今後の開発でLWCを主流にするのであれば、auraを勉強するのに時間をかけたくありませんし、auraでの作り込みもなるべく避けたいところです。  
 そこで、このリポジトリでは、ロジックの大部分をLWCで記述し最小限のauraコンポーネントでwrapするという方針でサンプルを作成しました。ユースケースについてはauraのサンプルとほぼ同様です。
 
